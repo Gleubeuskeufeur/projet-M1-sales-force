@@ -1,0 +1,77 @@
+avec virgule 40 valeurs
+id_mutation
+date_mutation
+numero_disposition
+nature_mutation
+valeur_fonciere
+adresse_numero
+adresse_suffixe
+adresse_nom_voie
+adresse_code_voie
+code_postal
+code_commune
+nom_commune
+code_departement
+ancien_code_commune
+ancien_nom_commune
+id_parcelle
+ancien_id_parcelle
+numero_volume
+lot1_numero
+lot1_surface_carrez
+lot2_numero
+lot2_surface_carrez
+lot3_numero
+lot3_surface_carrez
+lot4_numero
+lot4_surface_carrez
+lot5_numero
+lot5_surface_carrez
+nombre_lots
+code_type_local
+type_local
+surface_reelle_bati
+nombre_pieces_principales
+code_nature_culture
+nature_culture
+code_nature_culture_speciale
+nature_culture_speciale
+surface_terrain
+longitude
+latitude
+
+
+descriptif large avec def des differentes données (par colonne) :
+
+1. **id_mutation**: Identifiant unique attribué à chaque transaction immobilière.
+2. **date_mutation**: Date à laquelle la transaction immobilière a été réalisée.
+3. **numero_disposition**: Numéro de disposition associé à la transaction dans le cadre d'un acte comprenant plusieurs mutations.
+4. **nature_mutation**: Type de transaction immobilière (exemple : vente, échange).
+5. **valeur_fonciere**: Montant financier de la transaction immobilière.
+6. **adresse_numero**: Numéro de l'adresse où se situe le bien immobilier concerné.
+7. **adresse_suffixe**: Suffixe de l'adresse (par exemple, bis, ter) si applicable.
+8. **adresse_nom_voie**: Nom de la rue ou de la voie où se trouve le bien immobilier.
+9. **adresse_code_voie**: Code officiel de la rue ou de la voie.
+10. **code_postal**: Code postal de l'emplacement du bien immobilier.
+11. **code_commune**: Code INSEE de la commune où se trouve le bien immobilier.
+12. **nom_commune**: Nom de la commune où est situé le bien immobilier.
+13. **code_departement**: Code du département de la localisation du bien immobilier.
+14. **ancien_code_commune**: Ancien code INSEE de la commune en cas de changement.
+15. **ancien_nom_commune**: Ancien nom de la commune en cas de changement.
+16. **id_parcelle**: Identifiant unique de la parcelle cadastrale concernée par la transaction.
+17. **ancien_id_parcelle**: Ancien identifiant de la parcelle si celui-ci a été modifié.
+18. **numero_volume**: Numéro de volume pour les biens en copropriété ou divisés en volumes distincts.
+19. **lot1_numero** à **lot5_numero**: Numéros des lots dans le cas d'une propriété divisée en plusieurs lots.
+20. **lot1_surface_carrez** à **lot5_surface_carrez**: Surfaces des lots selon la loi Carrez pour les lots mentionnés précédemment.
+21. **nombre_lots**: Nombre total de lots associés à la propriété.
+22. **code_type_local**: Code désignant le type de local (appartement, maison, etc.).
+23. **type_local**: Désignation textuelle du type de local (Appartement, Maison, etc.).
+24. **surface_reelle_bati**: Surface réelle bâtie du bien immobilier en mètres carrés.
+25. **nombre_pieces_principales**: Nombre de pièces principales du bien immobilier.
+26. **code_nature_culture**: Code désignant la nature du sol pour les terrains non bâtis (exemple : terres, prés).
+27. **nature_culture**: Description textuelle de la nature du sol pour les terrains non bâtis.
+28. **code_nature_culture_speciale**: Code pour une nature spéciale du sol si applicable.
+29. **nature_culture_speciale**: Description textuelle pour une nature spéciale du sol si applicable.
+30. **surface_terrain**: Surface totale du terrain associé au bien immobilier en mètres carrés.
+31. **longitude**: Coordonnée géographique longitudinale du bien immobilier.
+32. **latitude**: Coordonnée géographique latitudinale du bien immobilier.
